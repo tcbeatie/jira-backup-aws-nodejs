@@ -16,10 +16,10 @@ Jira Cloud being used by an organization with an AWS infrastructure
 ### Solutions / Setup
 
 1. Use AWS Lambda to run backup
-   1. Stores backup file in virtual /tmp before copying to S3
+   1. Stores backup file in virtual Lambda /tmp before copying to AWS S3
 1. Use hourly cron job via AWS CloudWatch to run script
    1. Script compares start time to epoch time, and aborts if within 48h of last backup
-1. S3 is set up with two directories under one bucket
+1. Set up AWS S3 with two directories under one bucket
    1. Daily retention expires after 2 weeks
    1. Monthly retention expires after 6 months
 1. Private data is stored in and retrieved from AWS Secrets Manager
