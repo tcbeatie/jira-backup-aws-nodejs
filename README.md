@@ -27,3 +27,5 @@ Jira Cloud being used by an organization with an AWS infrastructure
    1. Jira API key
    1. Jira API user
    1. AWS S3 bucket name
+
+![AWS workflow](/.images/AWS_flow.png)
