@@ -25,3 +25,5 @@ Jira Cloud being used by an organization with an AWS infrastructure
 1. Private data is stored in and retrieved from AWS Secrets Manager
    1. Jira Cloud URL
    1. Jira API key
+   1. Jira API user
+   1. AWS S3 bucket name
