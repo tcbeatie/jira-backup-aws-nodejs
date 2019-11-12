@@ -9,7 +9,7 @@ Jira Cloud being used by an organization with an AWS infrastructure
 ### Requirements / Conditions
 
 1. Cloud-to-cloud backup (Jira Cloud -> AWS S3)
-1. Jira cloud does not allow backups within 48h of last backup
+1. Jira Cloud does not allow backups within 48h of last backup
 1. Separate monthly and daily retention policies
 1. Don't store private keys in backup script
 
